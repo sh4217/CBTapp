@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="-214.49275362318843" y="75"/>
         </scene>
-        <!--View Controller-->
+        <!--Learning View Controller-->
         <scene sceneID="mLe-6Z-wnG">
             <objects>
-                <viewController id="U6h-kz-BcQ" sceneMemberID="viewController">
+                <viewController id="U6h-kz-BcQ" customClass="LearningViewController" customModule="CBT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EEC-8w-3sJ">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
