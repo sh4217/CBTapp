@@ -13,6 +13,7 @@
 		FE2ED10925E409FF0087D1EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2ED10725E409FF0087D1EF /* Main.storyboard */; };
 		FE2ED10B25E40A010087D1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2ED10A25E40A010087D1EF /* Assets.xcassets */; };
 		FE2ED10E25E40A010087D1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2ED10C25E40A010087D1EF /* LaunchScreen.storyboard */; };
+		FE9FE3E525E5604700464437 /* LearningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9FE3E425E5604700464437 /* LearningViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FE2ED10A25E40A010087D1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE2ED10D25E40A010087D1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE2ED10F25E40A010087D1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9FE3E425E5604700464437 /* LearningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FE2ED10325E409FF0087D1EF /* SceneDelegate.swift */,
 				FE2ED10525E409FF0087D1EF /* ViewController.swift */,
 				FE2ED10725E409FF0087D1EF /* Main.storyboard */,
+				FE9FE3E425E5604700464437 /* LearningViewController.swift */,
 				FE2ED10A25E40A010087D1EF /* Assets.xcassets */,
 				FE2ED10C25E40A010087D1EF /* LaunchScreen.storyboard */,
 				FE2ED10F25E40A010087D1EF /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				FE2ED10625E409FF0087D1EF /* ViewController.swift in Sources */,
 				FE2ED10225E409FF0087D1EF /* AppDelegate.swift in Sources */,
+				FE9FE3E525E5604700464437 /* LearningViewController.swift in Sources */,
 				FE2ED10425E409FF0087D1EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
