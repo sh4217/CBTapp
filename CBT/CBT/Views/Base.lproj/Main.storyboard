@@ -28,7 +28,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <state key="normal" title="Learning"/>
                                 <connections>
-                                    <segue destination="U6h-kz-BcQ" kind="presentation" id="iLq-fE-uoK"/>
+                                    <segue destination="U6h-kz-BcQ" kind="presentation" modalPresentationStyle="fullScreen" id="iLq-fE-uoK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -45,7 +45,7 @@
             <objects>
                 <viewController id="U6h-kz-BcQ" customClass="LearningViewController" customModule="CBT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EEC-8w-3sJ">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="               Learning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGU-2w-Yky">
