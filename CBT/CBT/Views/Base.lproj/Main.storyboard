@@ -82,7 +82,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="allOrNothingButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="q9P-yh-uRA"/>
-                                                    <segue destination="dlP-hz-EtF" kind="presentation" modalPresentationStyle="fullScreen" id="i0O-Yv-KE5"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All-or-nothing thinking" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7C-Ro-qb3">
@@ -118,6 +117,9 @@
                         </constraints>
                     </view>
                     <size key="freeformSize" width="390" height="1200"/>
+                    <connections>
+                        <segue destination="dlP-hz-EtF" kind="presentation" identifier="goToInformation" modalPresentationStyle="fullScreen" id="Oam-hF-CAF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X64-7B-FeV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -143,6 +145,9 @@
                         <viewLayoutGuide key="safeArea" id="Onw-oF-AdZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="wSG-gJ-c6F" id="Vod-xM-dks"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m2x-6D-mHc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

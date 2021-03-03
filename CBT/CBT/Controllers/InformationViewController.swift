@@ -9,9 +9,13 @@ import UIKit
 
 class InformationViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
+    var text: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        label.text = text
         // Do any additional setup after loading the view.
     }
     

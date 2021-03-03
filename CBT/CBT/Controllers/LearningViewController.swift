@@ -20,6 +20,14 @@ class LearningViewController: UIViewController {
     }
 
     @IBAction func allOrNothingButtonPressed(_ sender: UIButton) {
-        
+        performSegue(withIdentifier: "goToInformation", sender: self)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToInformation" {
+            let informationVC = segue.destination as! InformationViewController
+            informationVC.text = "All-or-nothing thinking"
+        }
+    }
+ 
 }
