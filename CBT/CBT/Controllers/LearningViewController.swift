@@ -19,4 +19,7 @@ class LearningViewController: UIViewController {
       
     }
 
+    @IBAction func allOrNothingButtonPressed(_ sender: UIButton) {
+        
+    }
 }
