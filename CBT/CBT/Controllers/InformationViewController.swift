@@ -13,6 +13,10 @@ class InformationViewController: UIViewController {
     
     var text: String = ""
     
+    @IBAction func close() {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         label.text = text
