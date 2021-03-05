@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE164EA225F1B23000C2AA76 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE164EA125F1B23000C2AA76 /* Information.swift */; };
+		FE164EA525F1B29000C2AA76 /* InformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE164EA425F1B29000C2AA76 /* InformationModel.swift */; };
 		FE2ED10225E409FF0087D1EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2ED10125E409FF0087D1EF /* AppDelegate.swift */; };
 		FE2ED10425E409FF0087D1EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2ED10325E409FF0087D1EF /* SceneDelegate.swift */; };
 		FE2ED10625E409FF0087D1EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2ED10525E409FF0087D1EF /* ViewController.swift */; };
@@ -15,10 +17,11 @@
 		FE2ED10E25E40A010087D1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2ED10C25E40A010087D1EF /* LaunchScreen.storyboard */; };
 		FE9FE3E525E5604700464437 /* LearningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9FE3E425E5604700464437 /* LearningViewController.swift */; };
 		FEF765F725F053BA00479C8F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF765F625F053BA00479C8F /* InformationViewController.swift */; };
-		FEF765FA25F0564F00479C8F /* InformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF765F925F0564F00479C8F /* InformationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE164EA125F1B23000C2AA76 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		FE164EA425F1B29000C2AA76 /* InformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModel.swift; sourceTree = "<group>"; };
 		FE2ED0FE25E409FF0087D1EF /* CBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2ED10125E409FF0087D1EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE2ED10325E409FF0087D1EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +32,6 @@
 		FE2ED10F25E40A010087D1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE9FE3E425E5604700464437 /* LearningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningViewController.swift; sourceTree = "<group>"; };
 		FEF765F625F053BA00479C8F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
-		FEF765F925F0564F00479C8F /* InformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 		FEF765FC25F0565600479C8F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FEF765F925F0564F00479C8F /* InformationModel.swift */,
+				FE164EA125F1B23000C2AA76 /* Information.swift */,
+				FE164EA425F1B29000C2AA76 /* InformationModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,11 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE164EA225F1B23000C2AA76 /* Information.swift in Sources */,
 				FE2ED10625E409FF0087D1EF /* ViewController.swift in Sources */,
 				FE2ED10225E409FF0087D1EF /* AppDelegate.swift in Sources */,
 				FE9FE3E525E5604700464437 /* LearningViewController.swift in Sources */,
 				FE2ED10425E409FF0087D1EF /* SceneDelegate.swift in Sources */,
-				FEF765FA25F0564F00479C8F /* InformationModel.swift in Sources */,
+				FE164EA525F1B29000C2AA76 /* InformationModel.swift in Sources */,
 				FEF765F725F053BA00479C8F /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
