@@ -14,6 +14,7 @@ class InformationViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     var text: String = ""
+    let infoModel = InformationModel()
     
     @IBAction func close() {
         dismiss(animated: true, completion: nil)
@@ -22,18 +23,18 @@ class InformationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         label.text = text
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func playVideoButtonPressed(_ sender: UIButton) {
+        let player = infoModel.completeInformation[0].video
+        let layer = AVPlayerLayer(player: player)
+        layer.frame = view.bounds
+        view.layer.addSublayer(layer)
+        player.play()
     }
-    */
-
+    
+    @IBAction func playAudioButtonPressed(_ sender: UIButton) {
+        
+    }
+    
 }
