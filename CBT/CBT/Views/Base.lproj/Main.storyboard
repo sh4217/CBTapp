@@ -81,8 +81,11 @@
                                                 <rect key="frame" x="68" y="202" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <state key="normal" title="Basic Principles">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
-                                                    <action selector="basicPrinciplesButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="dI4-h1-M8b"/>
+                                                    <action selector="categoryNameButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="5es-hB-YEY"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Basic Principles" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEd-vt-TaA">
@@ -96,8 +99,11 @@
                                                 <rect key="frame" x="231" y="202" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <state key="normal" title="All-or-nothing thinking">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
-                                                    <action selector="allOrNothingButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="biX-4H-5nK"/>
+                                                    <action selector="categoryNameButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="AQd-yS-D4l"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All-or-nothing thinking" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckJ-he-zM0">
@@ -111,8 +117,11 @@
                                                 <rect key="frame" x="68" y="363" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <state key="normal" title="Overgeneralization">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
-                                                    <action selector="overgeneralizationButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="9CL-h1-D5v"/>
+                                                    <action selector="categoryNameButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="zs5-2S-WIb"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Overgen-eralization" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vKt-pj-poc">
@@ -126,8 +135,11 @@
                                                 <rect key="frame" x="231" y="363" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <state key="normal" title="Mental Filter">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
-                                                    <action selector="mentalFilterButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="Xtw-ga-7Bf"/>
+                                                    <action selector="categoryNameButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="AvT-gw-RKM"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mental Filter" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWA-wK-iVW">
@@ -141,8 +153,11 @@
                                                 <rect key="frame" x="68" y="511" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <state key="normal" title="Disqualifying the positive">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
-                                                    <action selector="disqualifyingButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="gcD-m6-PL8"/>
+                                                    <action selector="categoryNameButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="5fQ-G5-R7n"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Disqualifying the positive" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUd-hh-ewb">
@@ -156,8 +171,11 @@
                                                 <rect key="frame" x="231" y="511" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <state key="normal" title="Jumping to conclusions">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
-                                                    <action selector="jumpingButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="Ufq-i1-BKc"/>
+                                                    <action selector="categoryNameButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="tCM-yw-aCw"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jumping to conclusions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YpX-Tt-ji9">
@@ -171,8 +189,11 @@
                                                 <rect key="frame" x="68" y="679" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <state key="normal" title="Magnification and Minimization">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
-                                                    <action selector="magnificationButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="6b4-Qq-Bbm"/>
+                                                    <action selector="categoryNameButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="WJa-4O-3Dp"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Magnification and Minimization" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fjk-Zg-eLZ">
@@ -186,8 +207,11 @@
                                                 <rect key="frame" x="231" y="678" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <state key="normal" title="Emotional Reasoning">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
-                                                    <action selector="emotionalReasoningButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="gbB-4Q-MXZ"/>
+                                                    <action selector="categoryNameButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="1qZ-BI-KQm"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emotional Reasoning" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbt-9J-4RT">
@@ -201,8 +225,11 @@
                                                 <rect key="frame" x="68" y="837" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <state key="normal" title="Should Statements">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
-                                                    <action selector="shouldStatementsButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="UnT-vE-QPI"/>
+                                                    <action selector="categoryNameButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="NR9-tV-Xgj"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Should Statements" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsE-fe-WVy">
@@ -216,8 +243,11 @@
                                                 <rect key="frame" x="231" y="837" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <state key="normal" title="Labeling">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
-                                                    <action selector="labelingButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="K3i-2F-PBe"/>
+                                                    <action selector="categoryNameButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="pMb-I9-nPm"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Labeling" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABF-84-a3F">
@@ -231,8 +261,11 @@
                                                 <rect key="frame" x="68" y="995" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <state key="normal" title="Personalization">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
-                                                    <action selector="personalizationButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="NMZ-tX-chM"/>
+                                                    <action selector="categoryNameButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="wE8-6X-uwq"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Personal-ization" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSw-2v-SSO">
@@ -246,11 +279,11 @@
                                                 <rect key="frame" x="231" y="995" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
-                                                <state key="normal">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="General Advice">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="generalAdviceButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="l5A-5V-DVR"/>
+                                                    <action selector="categoryNameButtonPressed:" destination="U6h-kz-BcQ" eventType="touchUpInside" id="G58-8i-MiU"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="General Advice" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCq-jg-mw0">
@@ -287,16 +320,6 @@
                     </view>
                     <size key="freeformSize" width="390" height="1200"/>
                     <connections>
-                        <outlet property="allOrNothingThinkingLabel" destination="ckJ-he-zM0" id="Z9T-7S-eEX"/>
-                        <outlet property="basicPrinciplesLabel" destination="zEd-vt-TaA" id="prR-Eq-DEn"/>
-                        <outlet property="disqualifyingLabel" destination="wUd-hh-ewb" id="WG9-Nq-8aY"/>
-                        <outlet property="emotionalReasoningLabel" destination="Sbt-9J-4RT" id="p3q-NH-SGw"/>
-                        <outlet property="generalAdviceLabel" destination="OCq-jg-mw0" id="j0F-NX-vz0"/>
-                        <outlet property="jumpingLabel" destination="YpX-Tt-ji9" id="dY5-0d-c4N"/>
-                        <outlet property="labelingLabel" destination="ABF-84-a3F" id="fr9-Mq-ZXn"/>
-                        <outlet property="magnificationLabel" destination="Fjk-Zg-eLZ" id="8bX-jD-6Lc"/>
-                        <outlet property="mentalFilterLabel" destination="PWA-wK-iVW" id="4qI-73-hMg"/>
-                        <outlet property="shouldStatementsLabel" destination="NsE-fe-WVy" id="Ew4-8c-wvd"/>
                         <segue destination="dlP-hz-EtF" kind="presentation" identifier="goToInformation" modalPresentationStyle="fullScreen" id="Oam-hF-CAF"/>
                     </connections>
                 </viewController>
@@ -312,14 +335,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSG-gJ-c6F">
-                                <rect key="frame" x="73.85796545108451" y="323.12667946257807" width="240.00000000000011" height="200.00000000000006"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray2Color"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1W-Ie-UtW">
                                 <rect key="frame" x="30" y="64" width="60" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -331,6 +346,14 @@
                                     <action selector="close" destination="dlP-hz-EtF" eventType="touchUpInside" id="aZ8-xO-lAK"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSG-gJ-c6F">
+                                <rect key="frame" x="75" y="130" width="240" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Onw-oF-AdZ"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
