@@ -26,15 +26,16 @@ class InformationViewController: UIViewController {
     }
     
     @IBAction func playVideoButtonPressed(_ sender: UIButton) {
-        let player = infoModel.completeInformation[0].video
-        let layer = AVPlayerLayer(player: player)
-        layer.frame = view.bounds
-        view.layer.addSublayer(layer)
-        player.play()
+        let video = infoModel.completeInformation[0].video
+        let videoViewer = AVPlayerViewController()
+        videoViewer.player = video
+        present(videoViewer, animated: true)
     }
     
     @IBAction func playAudioButtonPressed(_ sender: UIButton) {
-        let player = infoModel.completeInformation[0].audio
-        player.play()
+        let audio = infoModel.completeInformation[0].audio
+        let audioViewer = AVPlayerViewController()
+        audioViewer.player = audio
+        present(audioViewer, animated: true)
     }
 }
