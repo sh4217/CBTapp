@@ -34,7 +34,7 @@ class InformationViewController: UIViewController {
     }
     
     @IBAction func playAudioButtonPressed(_ sender: UIButton) {
-        
+        let player = infoModel.completeInformation[0].audio
+        player.play()
     }
-    
 }
