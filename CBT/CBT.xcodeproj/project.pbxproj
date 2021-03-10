@@ -10,7 +10,6 @@
 		FE164EA225F1B23000C2AA76 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE164EA125F1B23000C2AA76 /* Information.swift */; };
 		FE164EA525F1B29000C2AA76 /* InformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE164EA425F1B29000C2AA76 /* InformationModel.swift */; };
 		FE164EC225F1BF5800C2AA76 /* Video in Resources */ = {isa = PBXBuildFile; fileRef = FE164EC125F1BF5800C2AA76 /* Video */; };
-		FE164EC625F1C05800C2AA76 /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = FE164EC525F1C05800C2AA76 /* Audio */; };
 		FE2ED10225E409FF0087D1EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2ED10125E409FF0087D1EF /* AppDelegate.swift */; };
 		FE2ED10425E409FF0087D1EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2ED10325E409FF0087D1EF /* SceneDelegate.swift */; };
 		FE2ED10625E409FF0087D1EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2ED10525E409FF0087D1EF /* ViewController.swift */; };
@@ -25,7 +24,6 @@
 		FE164EA125F1B23000C2AA76 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
 		FE164EA425F1B29000C2AA76 /* InformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModel.swift; sourceTree = "<group>"; };
 		FE164EC125F1BF5800C2AA76 /* Video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Video; sourceTree = "<group>"; };
-		FE164EC525F1C05800C2AA76 /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Audio; sourceTree = "<group>"; };
 		FE2ED0FE25E409FF0087D1EF /* CBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2ED10125E409FF0087D1EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE2ED10325E409FF0087D1EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 				FE0186EC25E565B3005E0776 /* Controllers */,
 				FE2ED10A25E40A010087D1EF /* Assets.xcassets */,
 				FE164EC125F1BF5800C2AA76 /* Video */,
-				FE164EC525F1C05800C2AA76 /* Audio */,
 				FE2ED10C25E40A010087D1EF /* LaunchScreen.storyboard */,
 				FE2ED10F25E40A010087D1EF /* Info.plist */,
 			);
@@ -167,7 +164,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE2ED10E25E40A010087D1EF /* LaunchScreen.storyboard in Resources */,
-				FE164EC625F1C05800C2AA76 /* Audio in Resources */,
 				FE2ED10B25E40A010087D1EF /* Assets.xcassets in Resources */,
 				FE164EC225F1BF5800C2AA76 /* Video in Resources */,
 				FE2ED10925E409FF0087D1EF /* Main.storyboard in Resources */,

@@ -365,17 +365,6 @@
                                     <action selector="playVideoButtonPressed:" destination="dlP-hz-EtF" eventType="touchUpInside" id="dSQ-jM-cax"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUv-5o-nl2">
-                                <rect key="frame" x="94" y="491" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray2Color"/>
-                                <state key="normal" title="Play audio">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="playAudioButtonPressed:" destination="dlP-hz-EtF" eventType="touchUpInside" id="jfG-tl-Qou"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Onw-oF-AdZ"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>

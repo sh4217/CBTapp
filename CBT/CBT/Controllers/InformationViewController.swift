@@ -31,11 +31,4 @@ class InformationViewController: UIViewController {
         videoViewer.player = video
         present(videoViewer, animated: true)
     }
-    
-    @IBAction func playAudioButtonPressed(_ sender: UIButton) {
-        let audio = infoModel.completeInformation[0].audio
-        let audioViewer = AVPlayerViewController()
-        audioViewer.player = audio
-        present(audioViewer, animated: true)
-    }
 }
