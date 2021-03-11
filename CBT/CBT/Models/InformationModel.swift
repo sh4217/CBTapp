@@ -18,3 +18,4 @@ struct InformationModel {
         Information(t: "General advice", v: AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "General advice", ofType: "MOV", inDirectory: "Video")!)), x: "These are the general principles.")
     ]
 }
+

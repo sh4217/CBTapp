@@ -17,6 +17,7 @@
 		FE2ED10B25E40A010087D1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2ED10A25E40A010087D1EF /* Assets.xcassets */; };
 		FE2ED10E25E40A010087D1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2ED10C25E40A010087D1EF /* LaunchScreen.storyboard */; };
 		FE9FE3E525E5604700464437 /* LearningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9FE3E425E5604700464437 /* LearningViewController.swift */; };
+		FEE7F61A25F99B3500231BC4 /* InformationDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7F61925F99B3500231BC4 /* InformationDictionary.swift */; };
 		FEF765F725F053BA00479C8F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF765F625F053BA00479C8F /* InformationViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		FE2ED10D25E40A010087D1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE2ED10F25E40A010087D1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE9FE3E425E5604700464437 /* LearningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningViewController.swift; sourceTree = "<group>"; };
+		FEE7F61925F99B3500231BC4 /* InformationDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationDictionary.swift; sourceTree = "<group>"; };
 		FEF765F625F053BA00479C8F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 			children = (
 				FE164EA125F1B23000C2AA76 /* Information.swift */,
 				FE164EA425F1B29000C2AA76 /* InformationModel.swift */,
+				FEE7F61925F99B3500231BC4 /* InformationDictionary.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				FE164EA225F1B23000C2AA76 /* Information.swift in Sources */,
 				FE2ED10625E409FF0087D1EF /* ViewController.swift in Sources */,
+				FEE7F61A25F99B3500231BC4 /* InformationDictionary.swift in Sources */,
 				FE2ED10225E409FF0087D1EF /* AppDelegate.swift in Sources */,
 				FE9FE3E525E5604700464437 /* LearningViewController.swift in Sources */,
 				FE2ED10425E409FF0087D1EF /* SceneDelegate.swift in Sources */,

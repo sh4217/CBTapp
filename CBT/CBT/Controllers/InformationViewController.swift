@@ -14,7 +14,7 @@ class InformationViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     var text: String = ""
-    let infoModel = InformationModel()
+    let infoDictionary = InformationDictionary()
     
     @IBAction func close() {
         dismiss(animated: true, completion: nil)
@@ -26,7 +26,8 @@ class InformationViewController: UIViewController {
     }
     
     @IBAction func playVideoButtonPressed(_ sender: UIButton) {
-        let video = infoModel.completeInformation[0].video
+        let video = infoDictionary.videoDict[text]
+        print(sender.currentTitle!)
         let videoViewer = AVPlayerViewController()
         videoViewer.player = video
         present(videoViewer, animated: true)
