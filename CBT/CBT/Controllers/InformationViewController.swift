@@ -12,6 +12,7 @@ import AVFoundation
 class InformationViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var exampleTextBox: UILabel!
     
     var text: String = ""
     let infoDictionary = InformationDictionary()
@@ -27,9 +28,9 @@ class InformationViewController: UIViewController {
     
     @IBAction func playVideoButtonPressed(_ sender: UIButton) {
         let video = infoDictionary.videoDict[text]
-        print(sender.currentTitle!)
         let videoViewer = AVPlayerViewController()
         videoViewer.player = video
         present(videoViewer, animated: true)
+        exampleTextBox.text = infoDictionary.textDict[text]
     }
 }

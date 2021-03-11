@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE164EA225F1B23000C2AA76 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE164EA125F1B23000C2AA76 /* Information.swift */; };
-		FE164EA525F1B29000C2AA76 /* InformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE164EA425F1B29000C2AA76 /* InformationModel.swift */; };
 		FE164EC225F1BF5800C2AA76 /* Video in Resources */ = {isa = PBXBuildFile; fileRef = FE164EC125F1BF5800C2AA76 /* Video */; };
 		FE2ED10225E409FF0087D1EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2ED10125E409FF0087D1EF /* AppDelegate.swift */; };
 		FE2ED10425E409FF0087D1EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2ED10325E409FF0087D1EF /* SceneDelegate.swift */; };
@@ -17,13 +15,12 @@
 		FE2ED10B25E40A010087D1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2ED10A25E40A010087D1EF /* Assets.xcassets */; };
 		FE2ED10E25E40A010087D1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2ED10C25E40A010087D1EF /* LaunchScreen.storyboard */; };
 		FE9FE3E525E5604700464437 /* LearningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9FE3E425E5604700464437 /* LearningViewController.swift */; };
+		FEBC16E725F9E1F400EBA26B /* Text in Resources */ = {isa = PBXBuildFile; fileRef = FEBC16E625F9E1F400EBA26B /* Text */; };
 		FEE7F61A25F99B3500231BC4 /* InformationDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7F61925F99B3500231BC4 /* InformationDictionary.swift */; };
 		FEF765F725F053BA00479C8F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF765F625F053BA00479C8F /* InformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE164EA125F1B23000C2AA76 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
-		FE164EA425F1B29000C2AA76 /* InformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModel.swift; sourceTree = "<group>"; };
 		FE164EC125F1BF5800C2AA76 /* Video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Video; sourceTree = "<group>"; };
 		FE2ED0FE25E409FF0087D1EF /* CBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2ED10125E409FF0087D1EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +31,7 @@
 		FE2ED10D25E40A010087D1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE2ED10F25E40A010087D1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE9FE3E425E5604700464437 /* LearningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningViewController.swift; sourceTree = "<group>"; };
+		FEBC16E625F9E1F400EBA26B /* Text */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Text; sourceTree = "<group>"; };
 		FEE7F61925F99B3500231BC4 /* InformationDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationDictionary.swift; sourceTree = "<group>"; };
 		FEF765F625F053BA00479C8F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +90,7 @@
 				FE0186ED25E565CC005E0776 /* Views */,
 				FE0186EC25E565B3005E0776 /* Controllers */,
 				FE2ED10A25E40A010087D1EF /* Assets.xcassets */,
+				FEBC16E625F9E1F400EBA26B /* Text */,
 				FE164EC125F1BF5800C2AA76 /* Video */,
 				FE2ED10C25E40A010087D1EF /* LaunchScreen.storyboard */,
 				FE2ED10F25E40A010087D1EF /* Info.plist */,
@@ -102,8 +101,6 @@
 		FEF765FC25F0565600479C8F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FE164EA125F1B23000C2AA76 /* Information.swift */,
-				FE164EA425F1B29000C2AA76 /* InformationModel.swift */,
 				FEE7F61925F99B3500231BC4 /* InformationDictionary.swift */,
 			);
 			path = Models;
@@ -170,6 +167,7 @@
 				FE2ED10B25E40A010087D1EF /* Assets.xcassets in Resources */,
 				FE164EC225F1BF5800C2AA76 /* Video in Resources */,
 				FE2ED10925E409FF0087D1EF /* Main.storyboard in Resources */,
+				FEBC16E725F9E1F400EBA26B /* Text in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,13 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE164EA225F1B23000C2AA76 /* Information.swift in Sources */,
 				FE2ED10625E409FF0087D1EF /* ViewController.swift in Sources */,
 				FEE7F61A25F99B3500231BC4 /* InformationDictionary.swift in Sources */,
 				FE2ED10225E409FF0087D1EF /* AppDelegate.swift in Sources */,
 				FE9FE3E525E5604700464437 /* LearningViewController.swift in Sources */,
 				FE2ED10425E409FF0087D1EF /* SceneDelegate.swift in Sources */,
-				FE164EA525F1B29000C2AA76 /* InformationModel.swift in Sources */,
 				FEF765F725F053BA00479C8F /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
