@@ -24,6 +24,7 @@ class InformationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         label.text = text
+        textBox.text = infoDictionary.textDict[text]
     }
     
     @IBAction func playVideoButtonPressed(_ sender: UIButton) {
@@ -31,6 +32,8 @@ class InformationViewController: UIViewController {
         let videoViewer = AVPlayerViewController()
         videoViewer.player = video
         present(videoViewer, animated: true)
-        textBox.text = infoDictionary.textDict[text]
+        //textBox.text = infoDictionary.textDict[text]
     }
+
 }
+
