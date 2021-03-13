@@ -16,6 +16,7 @@
 		FE2ED10E25E40A010087D1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2ED10C25E40A010087D1EF /* LaunchScreen.storyboard */; };
 		FE9FE3E525E5604700464437 /* LearningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9FE3E425E5604700464437 /* LearningViewController.swift */; };
 		FEBC16E725F9E1F400EBA26B /* Text in Resources */ = {isa = PBXBuildFile; fileRef = FEBC16E625F9E1F400EBA26B /* Text */; };
+		FED897FE25FD78B100E98791 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED897FD25FD78B100E98791 /* JournalViewController.swift */; };
 		FEE7F61A25F99B3500231BC4 /* InformationDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7F61925F99B3500231BC4 /* InformationDictionary.swift */; };
 		FEF765F725F053BA00479C8F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF765F625F053BA00479C8F /* InformationViewController.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		FE2ED10F25E40A010087D1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE9FE3E425E5604700464437 /* LearningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningViewController.swift; sourceTree = "<group>"; };
 		FEBC16E625F9E1F400EBA26B /* Text */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Text; sourceTree = "<group>"; };
+		FED897FD25FD78B100E98791 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		FEE7F61925F99B3500231BC4 /* InformationDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationDictionary.swift; sourceTree = "<group>"; };
 		FEF765F625F053BA00479C8F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				FE2ED10525E409FF0087D1EF /* ViewController.swift */,
+				FED897FD25FD78B100E98791 /* JournalViewController.swift */,
 				FE9FE3E425E5604700464437 /* LearningViewController.swift */,
 				FEF765F625F053BA00479C8F /* InformationViewController.swift */,
 			);
@@ -184,6 +187,7 @@
 				FE9FE3E525E5604700464437 /* LearningViewController.swift in Sources */,
 				FE2ED10425E409FF0087D1EF /* SceneDelegate.swift in Sources */,
 				FEF765F725F053BA00479C8F /* InformationViewController.swift in Sources */,
+				FED897FE25FD78B100E98791 /* JournalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

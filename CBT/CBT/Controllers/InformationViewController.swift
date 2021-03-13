@@ -32,7 +32,6 @@ class InformationViewController: UIViewController {
         let videoViewer = AVPlayerViewController()
         videoViewer.player = video
         present(videoViewer, animated: true)
-        //textBox.text = infoDictionary.textDict[text]
     }
 
 }
