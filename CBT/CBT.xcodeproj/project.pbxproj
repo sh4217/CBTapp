@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FE164EC225F1BF5800C2AA76 /* Video in Resources */ = {isa = PBXBuildFile; fileRef = FE164EC125F1BF5800C2AA76 /* Video */; };
+		FE201C3125FE780B0037E51B /* Journal3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE201C3025FE780B0037E51B /* Journal3ViewController.swift */; };
 		FE2ED10225E409FF0087D1EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2ED10125E409FF0087D1EF /* AppDelegate.swift */; };
 		FE2ED10425E409FF0087D1EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2ED10325E409FF0087D1EF /* SceneDelegate.swift */; };
 		FE2ED10625E409FF0087D1EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2ED10525E409FF0087D1EF /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		FE164EC125F1BF5800C2AA76 /* Video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Video; sourceTree = "<group>"; };
+		FE201C3025FE780B0037E51B /* Journal3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Journal3ViewController.swift; path = CBT/Views/Journal3ViewController.swift; sourceTree = SOURCE_ROOT; };
 		FE2ED0FE25E409FF0087D1EF /* CBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2ED10125E409FF0087D1EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE2ED10325E409FF0087D1EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				FEF765F625F053BA00479C8F /* InformationViewController.swift */,
 				FED897FD25FD78B100E98791 /* JournalViewController.swift */,
 				FEE4075E25FDA5C0009F7261 /* Journal2ViewController.swift */,
+				FE201C3025FE780B0037E51B /* Journal3ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				FE2ED10425E409FF0087D1EF /* SceneDelegate.swift in Sources */,
 				FEF765F725F053BA00479C8F /* InformationViewController.swift in Sources */,
 				FED897FE25FD78B100E98791 /* JournalViewController.swift in Sources */,
+				FE201C3125FE780B0037E51B /* Journal3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

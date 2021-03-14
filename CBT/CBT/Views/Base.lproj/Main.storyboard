@@ -155,6 +155,9 @@
                                 <state key="normal" title="All-or-nothing thinking">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="distortionNameButtonPressed:" destination="qxn-wt-nHH" eventType="touchUpInside" id="I91-Et-bzR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxr-MP-G5u">
                                 <rect key="frame" x="50" y="294" width="290" height="30"/>
@@ -165,6 +168,9 @@
                                 <state key="normal" title="Overgeneralization">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="distortionNameButtonPressed:" destination="qxn-wt-nHH" eventType="touchUpInside" id="TSA-CR-iTx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgI-oR-HOv">
                                 <rect key="frame" x="50" y="334" width="290" height="30"/>
@@ -175,6 +181,9 @@
                                 <state key="normal" title="Mental Filter">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="distortionNameButtonPressed:" destination="qxn-wt-nHH" eventType="touchUpInside" id="WLg-M0-n2h"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3I-0X-KqR">
                                 <rect key="frame" x="50" y="374" width="290" height="30"/>
@@ -185,6 +194,9 @@
                                 <state key="normal" title="Disqualifying the Positive">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="distortionNameButtonPressed:" destination="qxn-wt-nHH" eventType="touchUpInside" id="1cV-rP-h0W"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xau-NP-Y2c">
                                 <rect key="frame" x="50" y="414" width="290" height="30"/>
@@ -195,6 +207,9 @@
                                 <state key="normal" title="Jumping to Conclusions">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="distortionNameButtonPressed:" destination="qxn-wt-nHH" eventType="touchUpInside" id="YmY-0C-diw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIM-Vg-j8w">
                                 <rect key="frame" x="50" y="454" width="290" height="30"/>
@@ -205,6 +220,9 @@
                                 <state key="normal" title="Magnification and Minimization">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="distortionNameButtonPressed:" destination="qxn-wt-nHH" eventType="touchUpInside" id="Gly-hu-QtZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TId-Kr-Vif">
                                 <rect key="frame" x="50" y="494" width="290" height="30"/>
@@ -215,6 +233,9 @@
                                 <state key="normal" title="Emotional Reasoning">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="distortionNameButtonPressed:" destination="qxn-wt-nHH" eventType="touchUpInside" id="1rM-YH-7R4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azt-aB-mzQ">
                                 <rect key="frame" x="50" y="534" width="290" height="30"/>
@@ -225,6 +246,9 @@
                                 <state key="normal" title="Should Statements">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="distortionNameButtonPressed:" destination="qxn-wt-nHH" eventType="touchUpInside" id="a5z-ZX-KHT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqA-Rw-ha3">
                                 <rect key="frame" x="50" y="574" width="290" height="30"/>
@@ -235,6 +259,9 @@
                                 <state key="normal" title="Labeling">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="distortionNameButtonPressed:" destination="qxn-wt-nHH" eventType="touchUpInside" id="2RD-hQ-Idb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekS-z9-07b">
                                 <rect key="frame" x="50" y="614" width="290" height="30"/>
@@ -245,6 +272,9 @@
                                 <state key="normal" title="Personalization">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="distortionNameButtonPressed:" destination="qxn-wt-nHH" eventType="touchUpInside" id="ZIJ-lQ-FEX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CQN-Y3-leo"/>
@@ -285,6 +315,9 @@
                             <constraint firstItem="b8t-it-k0o" firstAttribute="leading" secondItem="CQN-Y3-leo" secondAttribute="leading" constant="20" id="wE2-Zc-STc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="wF9-jS-sXc" kind="presentation" identifier="goToJournal3" modalPresentationStyle="fullScreen" id="NrW-nw-qke"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zMV-ju-wtg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -677,6 +710,45 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m2x-6D-mHc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1456.9230769230769" y="51.895734597156398"/>
+        </scene>
+        <!--Journal3 View Controller-->
+        <scene sceneID="uWg-iC-fTn">
+            <objects>
+                <viewController id="wF9-jS-sXc" customClass="Journal3ViewController" customModule="CBT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Xo-TW-W1T">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22m-x8-o1t">
+                                <rect key="frame" x="25" y="69" width="100" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <state key="normal" title="Return">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="close" destination="wF9-jS-sXc" eventType="touchUpInside" id="mwp-z5-1Cv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VgI-am-WGk">
+                                <rect key="frame" x="95" y="213" width="200" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Q4y-W2-rG6"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="exampleTextBox" destination="VgI-am-WGk" id="ai1-sV-fCz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NEe-Jp-jbD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1526" y="882"/>
         </scene>
     </scenes>
     <resources>
