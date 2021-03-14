@@ -4,6 +4,7 @@ class Journal3ViewController: UIViewController {
 
     
     @IBOutlet weak var textBox: UILabel!
+    @IBOutlet weak var entry2View: UITextView!
     var distortionName = ""
     
     @IBAction func close() {
@@ -15,5 +16,9 @@ class Journal3ViewController: UIViewController {
         textBox.text =
         "You have taken a crucial step by recognizing that your negative emotions may be emanating from thoughts suffering from the following cognitive distortion: \(distortionName).\n\nNow, reframe your thoughts in a healthier way that is not constrained by this distortion."
     }
-
+    
+    @IBAction func dismissKeyboardButtonPressed(_ sender: Any) {
+        entry2View.resignFirstResponder()
+    }
+    
 }

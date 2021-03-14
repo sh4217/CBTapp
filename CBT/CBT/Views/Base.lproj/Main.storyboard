@@ -86,11 +86,22 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rP9-Vk-ruI">
-                                <rect key="frame" x="170" y="256" width="200" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvm-z5-0ce">
+                                <rect key="frame" x="20" y="256" width="150" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
-                                <state key="normal" title="Tap here when done writing">
+                                <state key="normal" title="Dismiss keyboard">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissKeyboardButtonPressed:" destination="lWi-Qo-MQf" eventType="touchUpInside" id="xyj-5Q-jy4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rP9-Vk-ruI">
+                                <rect key="frame" x="211" y="256" width="159" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <state key="normal" title="Proceed to next step">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -112,10 +123,13 @@
                             <constraint firstItem="F7A-Tm-MAW" firstAttribute="top" secondItem="0D9-eK-0s6" secondAttribute="top" constant="25" id="oSc-i1-I7N"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="entryView" destination="Gxx-ph-0NJ" id="LR7-wO-XY7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4vT-uo-bJA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-180" y="882"/>
+            <point key="canvasLocation" x="-180" y="881.51658767772506"/>
         </scene>
         <!--Journal2 View Controller-->
         <scene sceneID="1OD-9m-iVr">
@@ -740,8 +754,22 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0h5-zl-7ql">
-                                <rect key="frame" x="20" y="370" width="350" height="420"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ME8-cs-iHH">
+                                <rect key="frame" x="20" y="370" width="150" height="30"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="brP-9m-3ql"/>
+                                    <constraint firstAttribute="height" constant="30" id="fYw-wo-v7s"/>
+                                </constraints>
+                                <state key="normal" title="Dismiss keyboard">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissKeyboardButtonPressed:" destination="wF9-jS-sXc" eventType="touchUpInside" id="pJL-qA-Myk"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lll-bg-bFV">
+                                <rect key="frame" x="20" y="420" width="350" height="370"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -751,16 +779,19 @@
                         <viewLayoutGuide key="safeArea" id="Q4y-W2-rG6"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
-                            <constraint firstItem="Q4y-W2-rG6" firstAttribute="trailing" secondItem="0h5-zl-7ql" secondAttribute="trailing" constant="20" id="6GQ-2R-EqI"/>
-                            <constraint firstItem="Q4y-W2-rG6" firstAttribute="bottom" secondItem="0h5-zl-7ql" secondAttribute="bottom" constant="20" id="Nvd-1s-fZF"/>
+                            <constraint firstItem="Q4y-W2-rG6" firstAttribute="bottom" secondItem="lll-bg-bFV" secondAttribute="bottom" constant="20" id="G0i-2p-RtH"/>
+                            <constraint firstItem="Q4y-W2-rG6" firstAttribute="trailing" secondItem="lll-bg-bFV" secondAttribute="trailing" constant="20" id="Gd7-NK-OsV"/>
                             <constraint firstItem="i4n-jJ-b4x" firstAttribute="leading" secondItem="Q4y-W2-rG6" secondAttribute="leading" constant="20" id="Oxx-ae-usw"/>
-                            <constraint firstItem="0h5-zl-7ql" firstAttribute="leading" secondItem="Q4y-W2-rG6" secondAttribute="leading" constant="20" id="Re6-bU-wxX"/>
-                            <constraint firstItem="0h5-zl-7ql" firstAttribute="top" secondItem="i4n-jJ-b4x" secondAttribute="bottom" constant="20" id="SWw-n6-gZA"/>
+                            <constraint firstItem="lll-bg-bFV" firstAttribute="leading" secondItem="Q4y-W2-rG6" secondAttribute="leading" constant="20" id="TSz-by-eVp"/>
                             <constraint firstItem="Q4y-W2-rG6" firstAttribute="trailing" secondItem="i4n-jJ-b4x" secondAttribute="trailing" constant="20" id="gYn-QK-J16"/>
+                            <constraint firstItem="lll-bg-bFV" firstAttribute="top" secondItem="ME8-cs-iHH" secondAttribute="bottom" constant="20" id="hol-uZ-ADR"/>
+                            <constraint firstItem="ME8-cs-iHH" firstAttribute="top" secondItem="i4n-jJ-b4x" secondAttribute="bottom" constant="20" id="sIt-H3-qag"/>
+                            <constraint firstItem="ME8-cs-iHH" firstAttribute="leading" secondItem="Q4y-W2-rG6" secondAttribute="leading" constant="20" id="xSN-x7-XMl"/>
                             <constraint firstItem="i4n-jJ-b4x" firstAttribute="top" secondItem="4Xo-TW-W1T" secondAttribute="top" constant="150" id="xrx-LZ-KPf"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="entry2View" destination="lll-bg-bFV" id="RXB-Kp-HA2"/>
                         <outlet property="textBox" destination="i4n-jJ-b4x" id="gj2-iw-4LT"/>
                     </connections>
                 </viewController>
