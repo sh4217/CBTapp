@@ -1,10 +1,3 @@
-//
-//  LearningViewController.swift
-//  CBT
-//
-//  Created by Sean Hall on 2/23/21.
-//
-
 import UIKit
 
 class LearningViewController: UIViewController {
