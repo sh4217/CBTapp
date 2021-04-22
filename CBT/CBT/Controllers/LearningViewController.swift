@@ -10,6 +10,7 @@ class LearningViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = #colorLiteral(red: 0.9780077338, green: 0.8992558122, blue: 0.8093300462, alpha: 1)
         
     }
 
