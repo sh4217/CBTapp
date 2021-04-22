@@ -15,10 +15,10 @@
 		FE2ED10925E409FF0087D1EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2ED10725E409FF0087D1EF /* Main.storyboard */; };
 		FE2ED10B25E40A010087D1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2ED10A25E40A010087D1EF /* Assets.xcassets */; };
 		FE2ED10E25E40A010087D1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2ED10C25E40A010087D1EF /* LaunchScreen.storyboard */; };
+		FE6E45BE263135C500B2C54B /* Play Button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE6E45BD263135C500B2C54B /* Play Button.jpg */; };
 		FE9FE3E525E5604700464437 /* LearningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9FE3E425E5604700464437 /* LearningViewController.swift */; };
 		FEBC16E725F9E1F400EBA26B /* Text in Resources */ = {isa = PBXBuildFile; fileRef = FEBC16E625F9E1F400EBA26B /* Text */; };
 		FED897FE25FD78B100E98791 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED897FD25FD78B100E98791 /* JournalViewController.swift */; };
-		FEDF2AF5262F8F2000154107 /* Aqua Gradient Background.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDF2AF4262F8F2000154107 /* Aqua Gradient Background.png */; };
 		FEE4075F25FDA5C0009F7261 /* Journal2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE4075E25FDA5C0009F7261 /* Journal2ViewController.swift */; };
 		FEE7F61A25F99B3500231BC4 /* InformationDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7F61925F99B3500231BC4 /* InformationDictionary.swift */; };
 		FEF765F725F053BA00479C8F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF765F625F053BA00479C8F /* InformationViewController.swift */; };
@@ -35,10 +35,10 @@
 		FE2ED10A25E40A010087D1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE2ED10D25E40A010087D1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE2ED10F25E40A010087D1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6E45BD263135C500B2C54B /* Play Button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Play Button.jpg"; sourceTree = "<group>"; };
 		FE9FE3E425E5604700464437 /* LearningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningViewController.swift; sourceTree = "<group>"; };
 		FEBC16E625F9E1F400EBA26B /* Text */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Text; sourceTree = "<group>"; };
 		FED897FD25FD78B100E98791 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
-		FEDF2AF4262F8F2000154107 /* Aqua Gradient Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aqua Gradient Background.png"; sourceTree = "<group>"; };
 		FEE4075E25FDA5C0009F7261 /* Journal2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal2ViewController.swift; sourceTree = "<group>"; };
 		FEE7F61925F99B3500231BC4 /* InformationDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationDictionary.swift; sourceTree = "<group>"; };
 		FEF765F625F053BA00479C8F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				FE2ED10725E409FF0087D1EF /* Main.storyboard */,
-				FEDF2AF4262F8F2000154107 /* Aqua Gradient Background.png */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,6 +101,7 @@
 				FE0186ED25E565CC005E0776 /* Views */,
 				FE0186EC25E565B3005E0776 /* Controllers */,
 				FE2ED10A25E40A010087D1EF /* Assets.xcassets */,
+				FE6E45BD263135C500B2C54B /* Play Button.jpg */,
 				FEBC16E625F9E1F400EBA26B /* Text */,
 				FE164EC125F1BF5800C2AA76 /* Video */,
 				FE2ED10C25E40A010087D1EF /* LaunchScreen.storyboard */,
@@ -175,10 +175,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6E45BE263135C500B2C54B /* Play Button.jpg in Resources */,
 				FE2ED10E25E40A010087D1EF /* LaunchScreen.storyboard in Resources */,
 				FE2ED10B25E40A010087D1EF /* Assets.xcassets in Resources */,
 				FE164EC225F1BF5800C2AA76 /* Video in Resources */,
-				FEDF2AF5262F8F2000154107 /* Aqua Gradient Background.png in Resources */,
 				FE2ED10925E409FF0087D1EF /* Main.storyboard in Resources */,
 				FEBC16E725F9E1F400EBA26B /* Text in Resources */,
 			);

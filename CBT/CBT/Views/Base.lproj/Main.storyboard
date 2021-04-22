@@ -908,21 +908,17 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWu-DV-6vz">
                                                 <rect key="frame" x="20" y="100" width="350" height="100"/>
-                                                <color key="backgroundColor" systemColor="systemGray2Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="tgR-Zt-TE7"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RmW-0Y-aFi">
-                                                <rect key="frame" x="50" y="25" width="75" height="50"/>
-                                                <color key="backgroundColor" systemColor="systemGray2Color"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="75" id="a0c-gw-dkt"/>
-                                                    <constraint firstAttribute="height" constant="50" id="rN7-1d-wfv"/>
-                                                </constraints>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RmW-0Y-aFi">
+                                                <rect key="frame" x="25" y="35" width="60" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Return">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -932,30 +928,32 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R85-ZB-7C0">
                                                 <rect key="frame" x="50" y="250" width="290" height="200"/>
-                                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="sKj-Dv-VoZ"/>
                                                 </constraints>
-                                                <state key="normal" title="Play video">
+                                                <state key="normal">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="playVideoButtonPressed:" destination="dlP-hz-EtF" eventType="touchUpInside" id="TZn-J4-Rf6"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4s-cN-YNI">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4s-cN-YNI">
                                                 <rect key="frame" x="50" y="500" width="290" height="0.0"/>
-                                                <color key="backgroundColor" systemColor="systemGray2Color"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Play Button.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="z2k-Il-FTx">
+                                                <rect key="frame" x="50" y="250" width="290" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.96470588235294119" green="0.90196078431372551" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="C4s-cN-YNI" secondAttribute="trailing" constant="50" id="8LY-BC-RQQ"/>
                                             <constraint firstItem="MWu-DV-6vz" firstAttribute="leading" secondItem="agg-AB-ktk" secondAttribute="leading" constant="20" id="MCh-ok-411"/>
-                                            <constraint firstItem="RmW-0Y-aFi" firstAttribute="top" secondItem="agg-AB-ktk" secondAttribute="top" constant="25" id="Mu1-WR-QfK"/>
                                             <constraint firstAttribute="trailing" secondItem="MWu-DV-6vz" secondAttribute="trailing" constant="20" id="OE7-EG-x3u"/>
                                             <constraint firstItem="R85-ZB-7C0" firstAttribute="top" secondItem="MWu-DV-6vz" secondAttribute="bottom" constant="50" id="RZI-hs-nr6"/>
                                             <constraint firstItem="C4s-cN-YNI" firstAttribute="top" secondItem="R85-ZB-7C0" secondAttribute="bottom" constant="50" id="WW8-4C-yyc"/>
@@ -964,7 +962,6 @@
                                             <constraint firstAttribute="trailing" secondItem="R85-ZB-7C0" secondAttribute="trailing" constant="50" id="dQ4-HL-kep"/>
                                             <constraint firstAttribute="bottom" secondItem="C4s-cN-YNI" secondAttribute="bottom" constant="50" id="eVw-wG-qBy"/>
                                             <constraint firstItem="R85-ZB-7C0" firstAttribute="leading" secondItem="agg-AB-ktk" secondAttribute="leading" constant="50" id="ggo-bn-XQw"/>
-                                            <constraint firstItem="RmW-0Y-aFi" firstAttribute="leading" secondItem="agg-AB-ktk" secondAttribute="leading" constant="50" id="qX7-Ht-oyp"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1073,6 +1070,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Play Button.jpg" width="570" height="428"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
